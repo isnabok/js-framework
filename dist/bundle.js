@@ -1,0 +1,1 @@
+(()=>{"use strict";var __webpack_modules__={10:()=>{eval("\n\nconsole.log('App runing!');\ndocument.querySelector('h1').textContent = 'Working!';\n\n//# sourceURL=webpack:///./index.js?")}},__webpack_exports__={};__webpack_modules__[10]()})();
