@@ -11,8 +11,8 @@ class AppHeader extends WFMComponent {
 export const appHeader = new AppHeader({
     selector: 'app-header',
     template: `
-        <nav>
-            <div class="nav-wrapper">
+        <nav class="teal darken-3">
+            <div class="nav-wrapper" style="margin: 0 15px;">
             <a href="#" class="brand-logo">JS Framework</a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="#">Sass</a></li>

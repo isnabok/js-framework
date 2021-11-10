@@ -2,6 +2,7 @@
 
 import { WFModule } from '../framework/index';
 import { appComponent } from './app.component';
+import { appHeader } from './common/app.header';
 
 class AppModule extends WFModule {
     constructor(config) {
