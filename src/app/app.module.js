@@ -2,6 +2,7 @@
 
 import { WFModule } from '../framework/index';
 import { appComponent } from './app.component';
+import { appRoutes } from './app.routes';
 import { appHeader } from './common/app.header';
 
 class AppModule extends WFModule {
@@ -15,4 +16,5 @@ export const appModule = new AppModule({
         appHeader
     ],
     bootstrap: appComponent,
+    routes: appRoutes,
 });
