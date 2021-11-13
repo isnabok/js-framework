@@ -1,6 +1,6 @@
 'use strict';
 
-import { WFMComponent } from "../../framework/index";
+import { WFMComponent } from "../../framework";
 
 class TabsPageComponent extends WFMComponent {
     constructor(config) {
@@ -18,6 +18,7 @@ class TabsPageComponent extends WFMComponent {
         this.el.querySelectorAll('.js-tab').forEach(e => e.classList.remove('active'));
         target.parentNode.classList.add('active');
     }
+
 }
 
 export const tabsPageComponent = new TabsPageComponent({
@@ -54,6 +55,7 @@ export const tabsPageComponent = new TabsPageComponent({
                     </div>
                     </li>
                 </ul>
+
             </div>
         </div>
     </div>

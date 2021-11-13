@@ -1,6 +1,6 @@
 'use strict';
 
-import { WFModule } from '../framework/index';
+import { WFModule } from '../framework';
 import { appComponent } from './app.component';
 import { appRoutes } from './app.routes';
 import { appHeader } from './common/app.header';

@@ -1,7 +1,7 @@
 'use strict';
 
-import { WFMComponent } from '../../framework/index';
-import { router } from '../../framework/tools/router';
+import { WFMComponent, router } from '../../framework';
+// import { router } from '../../framework/tools/router';
 
 class HomePageComponent extends WFMComponent {
     constructor(config) {

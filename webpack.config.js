@@ -22,6 +22,11 @@ module.exports = {
     devServer: {
         port: 4200,
     },
+    resolve: {
+        alias: {
+            'framework': path.join(__dirname, 'src/framework'),
+        }
+    },
     plugins: [
         // Позволяет собрать html файл вместе с js
         new HtmlWebpackPlugin({
